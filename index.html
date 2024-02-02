@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New project</title>
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main class="main">
+        <section class="container">
+            <header class="header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="124" height="20" viewBox="0 0 124 20" fill="none" class="logo">
+                    <path
+                        d="M1.81046 16.5996C0.789541 16.5996 0 15.8326 0 14.9258V1.88345C0 0.930442 0.835856 0.209473 1.81046 0.209473H5.73334C9.21448 0.209473 10.9552 2.4416 10.9552 4.76576C10.9552 6.39341 9.91098 7.39267 8.51839 8.06731C9.9573 8.64795 11.3965 9.69476 11.3965 11.7163C11.3965 14.4373 9.21435 16.5998 5.6405 16.5998H1.81046V16.5996ZM5.91867 6.62572C6.73113 6.62572 7.70566 6.06757 7.70566 4.81229C7.70566 3.92959 7.2878 3.13859 6.08094 3.13859H3.24957V6.62578H5.91867V6.62572ZM3.24964 9.60163V13.6462H5.84895C7.38084 13.6462 8.14712 12.8798 8.14712 11.6698C8.14712 10.3446 7.2189 9.60163 5.98831 9.60163H3.24964Z"
+                        fill="black" />
+                    <path
+                        d="M25.32 16.5997H19.1694C18.0322 16.5997 17.0115 16.2042 17.0115 14.9491V1.86008C17.0115 1.04673 17.7768 0.209473 18.7985 0.209473H25.0879C25.9704 0.209473 26.7127 0.907076 26.7127 1.72056C26.7127 2.55796 25.9704 3.16202 25.0879 3.16202H20.2607V6.9049H24.6473C25.4594 6.9049 26.2489 7.53226 26.2489 8.36973C26.2489 9.2061 25.5522 9.85751 24.6473 9.85751H20.2607V13.6462H25.32C26.1792 13.6462 26.9449 14.2975 26.9449 15.0885C26.9449 15.926 26.2027 16.5997 25.32 16.5997Z"
+                        fill="black" />
+                    <path
+                        d="M39.3838 11.136C39.3838 14.6691 38.1309 16.8089 33.9998 16.8089C33.1173 16.8089 31.3301 16.7159 31.3301 15.2047C31.3301 14.2744 32.1891 13.739 32.8387 13.739C33.3729 13.739 33.6748 13.8788 34.2544 13.8788C35.8092 13.8788 36.1346 12.8328 36.1346 11.1358V1.48765C36.1345 0.674508 36.831 0 37.7594 0C38.6176 0 39.3839 0.697807 39.3839 1.48772L39.3838 11.136Z"
+                        fill="black" />
+                    <path
+                        d="M77.5148 15.3442C77.5148 16.1345 76.7715 16.8089 75.913 16.8089C75.0315 16.8089 74.2651 16.1345 74.2651 15.3442V7.34595L71.6195 12.5538C71.3177 13.1576 70.7369 13.4368 70.0877 13.4368C69.4607 13.4368 68.8809 13.1576 68.5789 12.5538L65.9333 7.34595V15.3443C65.9333 16.1345 65.167 16.809 64.2623 16.809C63.3797 16.809 62.684 16.1345 62.684 15.3443V1.53445C62.684 0.651346 63.403 0.000204376 64.355 0.000204376C65.0974 0.000204376 65.6779 0.302544 65.9798 0.907156L70.1108 9.11325L74.2419 0.883994C74.5672 0.209485 75.1933 0 75.8434 0C76.7949 0 77.5148 0.697807 77.5148 1.53432V15.3442Z"
+                        fill="black" />
+                    <path
+                        d="M95.8482 14.8093L91.3225 1.58092C90.9973 0.651278 90.5329 0 89.4191 0C88.3053 0 87.841 0.674508 87.5388 1.58085L83.0132 14.8093C82.9668 14.9257 82.9442 15.2049 82.9442 15.3212C82.9442 16.2043 83.7097 16.809 84.6148 16.809C85.172 16.809 85.9151 16.3903 86.1464 15.7166C86.1464 15.7166 89.3262 5.18447 89.4191 4.46377C89.5119 5.18447 92.6687 15.7166 92.6687 15.7166C92.9008 16.3673 93.643 16.809 94.2466 16.809C95.1981 16.809 95.9179 16.2043 95.9179 15.3212C95.918 15.2049 95.8948 14.9258 95.8482 14.8093Z"
+                        fill="black" />
+                    <path
+                        d="M57.394 14.8093L52.8681 1.58092C52.5428 0.651278 52.0786 0 50.9649 0C49.8509 0 49.3865 0.674508 49.0844 1.58085L44.5587 14.8093C44.5121 14.9257 44.4897 15.2049 44.4897 15.3212C44.4897 16.2043 45.2552 16.809 46.1601 16.809C46.7174 16.809 47.4605 16.3903 47.692 15.7166C47.692 15.7166 50.8717 5.18447 50.9649 4.46377C51.0576 5.18447 54.2142 15.7166 54.2142 15.7166C54.4464 16.3673 55.1886 16.809 55.7922 16.809C56.7435 16.809 57.4634 16.2043 57.4634 15.3212C57.4635 15.2049 57.4405 14.9258 57.394 14.8093Z"
+                        fill="black" />
+                    <path
+                        d="M107.475 10.275C106.987 10.0665 106.407 9.85746 105.78 9.64811C103.506 8.95023 101.046 8.18341 101.046 4.8123C101.046 1.81349 103.135 0 106.431 0C107.8 0 111.095 0.34887 111.095 2.09267C111.095 2.85956 110.492 3.5573 109.471 3.5573C109.053 3.5573 108.728 3.41771 108.333 3.30156C107.893 3.13846 107.382 2.95269 106.57 2.95269C105.432 2.95269 104.364 3.34802 104.364 4.71924C104.364 5.74187 104.945 6.09088 105.339 6.27686C105.943 6.57927 106.5 6.76532 107.01 6.90491C109.285 7.62526 111.769 8.41606 111.769 11.7163C111.769 14.949 109.308 16.809 105.989 16.809C104.272 16.809 101.022 16.2043 101.022 14.5759C101.022 13.8323 101.696 13.1113 102.554 13.1113C102.902 13.1113 103.274 13.2275 103.714 13.3906C104.272 13.5767 105.015 13.8559 106.012 13.8559C107.614 13.8559 108.426 13.1346 108.426 11.856C108.426 10.8099 107.893 10.4613 107.475 10.275Z"
+                        fill="black" />
+                    <path
+                        d="M122.398 16.7129C123.211 16.7129 124 17.3636 124 18.2007C124 19.0374 123.304 19.6653 122.398 19.6653H116.218C115.313 19.6653 114.616 19.0374 114.616 18.2007C114.616 17.3636 115.406 16.7129 116.218 16.7129H122.398Z"
+                        fill="black" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" class="cart">
+                    <path
+                        d="M10.3101 20.6877H10.3115C10.3127 20.6877 10.314 20.6875 10.3152 20.6875H27.3125C27.731 20.6875 28.0989 20.4099 28.2139 20.0076L31.9639 6.88257C32.0447 6.59961 31.988 6.29541 31.811 6.06055C31.6338 5.82568 31.3567 5.6875 31.0625 5.6875H8.14795L7.47778 2.67163C7.38232 2.24268 7.00195 1.9375 6.5625 1.9375H0.9375C0.419678 1.9375 0 2.35718 0 2.875C0 3.39282 0.419678 3.8125 0.9375 3.8125H5.81055C5.9292 4.34692 9.01758 18.2449 9.19531 19.0444C8.19897 19.4775 7.5 20.4709 7.5 21.625C7.5 23.1758 8.76172 24.4375 10.3125 24.4375H27.3125C27.8303 24.4375 28.25 24.0178 28.25 23.5C28.25 22.9822 27.8303 22.5625 27.3125 22.5625H10.3125C9.79565 22.5625 9.375 22.1418 9.375 21.625C9.375 21.1089 9.79419 20.689 10.3101 20.6877ZM29.8196 7.5625L26.6052 18.8125H11.0645L8.56445 7.5625H29.8196Z"
+                        fill="black" />
+                    <path
+                        d="M9.375 27.25C9.375 28.8008 10.6367 30.0625 12.1875 30.0625C13.7383 30.0625 15 28.8008 15 27.25C15 25.6992 13.7383 24.4375 12.1875 24.4375C10.6367 24.4375 9.375 25.6992 9.375 27.25ZM12.1875 26.3125C12.7043 26.3125 13.125 26.7332 13.125 27.25C13.125 27.7668 12.7043 28.1875 12.1875 28.1875C11.6707 28.1875 11.25 27.7668 11.25 27.25C11.25 26.7332 11.6707 26.3125 12.1875 26.3125Z"
+                        fill="black" />
+                    <path
+                        d="M22.625 27.25C22.625 28.8008 23.8867 30.0625 25.4375 30.0625C26.9883 30.0625 28.25 28.8008 28.25 27.25C28.25 25.6992 26.9883 24.4375 25.4375 24.4375C23.8867 24.4375 22.625 25.6992 22.625 27.25ZM25.4375 26.3125C25.9543 26.3125 26.375 26.7332 26.375 27.25C26.375 27.7668 25.9543 28.1875 25.4375 28.1875C24.9207 28.1875 24.5 27.7668 24.5 27.25C24.5 26.7332 24.9207 26.3125 25.4375 26.3125Z"
+                        fill="black" />
+                </svg>
+            </header>
+            <hr>
+            <div class="content_wrap">
+                <div class="king_resting">
+                    <h1>Samurai King Resting</h1>
+                    <div>
+                        <img src="media/pexels-evgeny-tchebotarev-2187304 (1) 1.png" alt="dog image">
+                        <img class="img-2" src="media/pexels-evgeny-tchebotarev-2187304 (1) 1 (1).png" alt="dog imgae">
+                        <p>Photo of the day</p>
+                    </div>
+                    <button type="button">ADD TO CART</button>
+                </div>
+        
+                <div class="about">
+                    <div>
+                        <h3>About the Samurai King Resting</h3>
+                        <h4>Pets</h4>
+                        <p>
+                            So how did the classical Latin become so incoherent? According to McClintock, a 15th century
+                            typesetter likely
+                            scrambled
+                            part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type
+                            specimen book.
+                        </p>
+                        <p>
+                            So how did the classical Latin become so incoherent? According to McClintock, a 15th century
+                            typesetter likely scrambled
+                            part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type
+                            specimen book.So how
+                            did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter
+                            likely scrambled part
+                            of Cicero's De Finibus in order to provide placeholder
+        
+                            <span>text to mockup various fonts for a type specimen book.So how did the classical Latin become so
+                                incoherent? According to
+                                McClintock.</span>
+                        </p>
+                    </div>
+                    <div>
+                        <p>People also buy</p>
+                        <div class="images">
+                            <img src="media/Rectangle 10.png" alt="yellow building">
+                            <img src="media/Rectangle 10.1.png" alt="pink animated picture">
+                            <img src="media/Rectangle 10.2.png" alt="Egg baloon">
+                        </div>
+                        <div class="details">
+                            <strong>Details</strong>
+                            <p>Size: 1020 X 1020 pixel</p>
+                            <p>Size: 15 mb</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="products">
+                    <div class="heading">
+                        <strong>Photography <span>/</span></strong>
+                        <span>Premium Photos</span>
+        
+                        <p class="filter_btn">
+                            <svg class="open-btn" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <path
+                                    d="M23.8119 0H5.18805C2.32736 0 0 2.32736 0 5.18805V23.812C0 26.6726 2.32736 29 5.18805 29H23.812C26.6726 29 29 26.6726 29 23.8119V5.18805C29 2.32736 26.6726 0 23.8119 0ZM27.3008 23.8119C27.3008 25.7357 25.7357 27.3008 23.8119 27.3008H5.18805C3.26431 27.3008 1.69922 25.7357 1.69922 23.8119V5.18805C1.69922 3.26431 3.26431 1.69922 5.18805 1.69922H23.812C25.7357 1.69922 27.3008 3.26431 27.3008 5.18805V23.8119Z"
+                                    fill="black" />
+                                <path
+                                    d="M24.5103 6.3702H11.5701C11.2143 5.31357 10.2149 4.55017 9.03986 4.55017C7.86479 4.55017 6.86537 5.31357 6.50961 6.3702H4.48975C4.02054 6.3702 3.64014 6.7506 3.64014 7.21981C3.64014 7.68902 4.02054 8.06942 4.48975 8.06942H6.50966C6.86542 9.12605 7.86485 9.88946 9.03991 9.88946C10.215 9.88946 11.2144 9.12605 11.5702 8.06942H24.5103C24.9795 8.06942 25.3599 7.68902 25.3599 7.21981C25.3599 6.7506 24.9795 6.3702 24.5103 6.3702ZM9.03986 8.19024C8.50477 8.19024 8.06943 7.7549 8.06943 7.21981C8.06943 6.68473 8.50477 6.24939 9.03986 6.24939C9.57494 6.24939 10.0103 6.68473 10.0103 7.21981C10.0103 7.7549 9.57494 8.19024 9.03986 8.19024Z"
+                                    fill="black" />
+                                <path
+                                    d="M24.5103 13.6504H22.4904C22.1346 12.5938 21.1351 11.8304 19.9601 11.8304C18.7851 11.8304 17.7857 12.5938 17.4299 13.6504H4.48975C4.02054 13.6504 3.64014 14.0308 3.64014 14.5C3.64014 14.9692 4.02054 15.3496 4.48975 15.3496H17.4299C17.7857 16.4063 18.7852 17.1697 19.9602 17.1697C21.1352 17.1697 22.1347 16.4063 22.4904 15.3496H24.5103C24.9795 15.3496 25.3599 14.9692 25.3599 14.5C25.3599 14.0308 24.9795 13.6504 24.5103 13.6504ZM19.9602 15.4704C19.4251 15.4704 18.9897 15.0351 18.9897 14.5C18.9897 13.9649 19.4251 13.5296 19.9602 13.5296C20.4953 13.5296 20.9306 13.9649 20.9306 14.5C20.9306 15.0351 20.4953 15.4704 19.9602 15.4704Z"
+                                    fill="black" />
+                                <path
+                                    d="M24.5103 20.9306H15.2102C14.8545 19.8739 13.855 19.1105 12.68 19.1105C11.5049 19.1105 10.5055 19.8739 10.1497 20.9306H4.48975C4.02054 20.9306 3.64014 21.311 3.64014 21.7802C3.64014 22.2494 4.02054 22.6298 4.48975 22.6298H10.1497C10.5055 23.6864 11.5049 24.4498 12.68 24.4498C13.855 24.4498 14.8545 23.6864 15.2102 22.6298H24.5103C24.9795 22.6298 25.3599 22.2494 25.3599 21.7802C25.3599 21.311 24.9795 20.9306 24.5103 20.9306ZM12.68 22.7507C12.1449 22.7507 11.7096 22.3153 11.7096 21.7802C11.7096 21.2452 12.1449 20.8098 12.68 20.8098C13.2151 20.8098 13.6504 21.2451 13.6504 21.7802C13.6504 22.3153 13.2151 22.7507 12.68 22.7507Z"
+                                    fill="black" />
+                            </svg>
+                        </p>
+                        <div class="sort">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                <g clip-path="url(#clip0_1_172)">
+                                    <path
+                                        d="M3.64807 14.3734V1.53464L5.90435 3.79092C5.97793 3.86449 6.07296 3.90128 6.17106 3.90128C6.26916 3.90128 6.36419 3.86449 6.43777 3.79092C6.58492 3.64377 6.58492 3.40772 6.43777 3.26057L3.54077 0.363576C3.39976 0.222558 3.15144 0.222558 3.01042 0.363576L0.110362 3.26057C-0.0367873 3.40772 -0.0367873 3.64377 0.110362 3.79092C0.257511 3.93807 0.493562 3.93807 0.640711 3.79092L2.897 1.53464V14.3734C2.897 14.5818 3.0656 14.7505 3.27407 14.7505C3.47946 14.7474 3.64807 14.5788 3.64807 14.3734Z"
+                                        fill="black" />
+                                    <path
+                                        d="M11.4592 14.6367C11.5328 14.7103 11.6278 14.7471 11.7259 14.7471C11.824 14.7471 11.919 14.7103 11.9926 14.6367L14.8896 11.7397C15.0368 11.5926 15.0368 11.3565 14.8896 11.2093C14.7425 11.0622 14.5064 11.0622 14.3593 11.2093L12.103 13.4656V0.626886C12.103 0.418425 11.9344 0.249817 11.7259 0.249817C11.5174 0.249817 11.3488 0.418425 11.3488 0.626886V13.4656L9.09561 11.2093C8.94846 11.0622 8.71241 11.0622 8.56526 11.2093C8.41811 11.3565 8.41811 11.5926 8.56526 11.7397L11.4592 14.6367Z"
+                                        fill="black" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1_172">
+                                        <rect width="15" height="15" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p>Sort By</p>
+                            <strong>Price</strong>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 20 13" fill="none">
+                                <path d="M2 2L10 10L18 2" stroke="black" stroke-width="3" />
+                            </svg>
+                        </div>
+                    </div>
+                    <nav class="nav">
+                        <div class="heading-2">
+                            <strong>Photography <span>/</span></strong>
+                            <span>Premium Photos</span>
+        
+                            <p class="filter_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
+                                    <path
+                                        d="M23.8119 0H5.18805C2.32736 0 0 2.32736 0 5.18805V23.812C0 26.6726 2.32736 29 5.18805 29H23.812C26.6726 29 29 26.6726 29 23.8119V5.18805C29 2.32736 26.6726 0 23.8119 0ZM27.3008 23.8119C27.3008 25.7357 25.7357 27.3008 23.8119 27.3008H5.18805C3.26431 27.3008 1.69922 25.7357 1.69922 23.8119V5.18805C1.69922 3.26431 3.26431 1.69922 5.18805 1.69922H23.812C25.7357 1.69922 27.3008 3.26431 27.3008 5.18805V23.8119Z"
+                                        fill="black" />
+                                    <path
+                                        d="M24.5103 6.3702H11.5701C11.2143 5.31357 10.2149 4.55017 9.03986 4.55017C7.86479 4.55017 6.86537 5.31357 6.50961 6.3702H4.48975C4.02054 6.3702 3.64014 6.7506 3.64014 7.21981C3.64014 7.68902 4.02054 8.06942 4.48975 8.06942H6.50966C6.86542 9.12605 7.86485 9.88946 9.03991 9.88946C10.215 9.88946 11.2144 9.12605 11.5702 8.06942H24.5103C24.9795 8.06942 25.3599 7.68902 25.3599 7.21981C25.3599 6.7506 24.9795 6.3702 24.5103 6.3702ZM9.03986 8.19024C8.50477 8.19024 8.06943 7.7549 8.06943 7.21981C8.06943 6.68473 8.50477 6.24939 9.03986 6.24939C9.57494 6.24939 10.0103 6.68473 10.0103 7.21981C10.0103 7.7549 9.57494 8.19024 9.03986 8.19024Z"
+                                        fill="black" />
+                                    <path
+                                        d="M24.5103 13.6504H22.4904C22.1346 12.5938 21.1351 11.8304 19.9601 11.8304C18.7851 11.8304 17.7857 12.5938 17.4299 13.6504H4.48975C4.02054 13.6504 3.64014 14.0308 3.64014 14.5C3.64014 14.9692 4.02054 15.3496 4.48975 15.3496H17.4299C17.7857 16.4063 18.7852 17.1697 19.9602 17.1697C21.1352 17.1697 22.1347 16.4063 22.4904 15.3496H24.5103C24.9795 15.3496 25.3599 14.9692 25.3599 14.5C25.3599 14.0308 24.9795 13.6504 24.5103 13.6504ZM19.9602 15.4704C19.4251 15.4704 18.9897 15.0351 18.9897 14.5C18.9897 13.9649 19.4251 13.5296 19.9602 13.5296C20.4953 13.5296 20.9306 13.9649 20.9306 14.5C20.9306 15.0351 20.4953 15.4704 19.9602 15.4704Z"
+                                        fill="black" />
+                                    <path
+                                        d="M24.5103 20.9306H15.2102C14.8545 19.8739 13.855 19.1105 12.68 19.1105C11.5049 19.1105 10.5055 19.8739 10.1497 20.9306H4.48975C4.02054 20.9306 3.64014 21.311 3.64014 21.7802C3.64014 22.2494 4.02054 22.6298 4.48975 22.6298H10.1497C10.5055 23.6864 11.5049 24.4498 12.68 24.4498C13.855 24.4498 14.8545 23.6864 15.2102 22.6298H24.5103C24.9795 22.6298 25.3599 22.2494 25.3599 21.7802C25.3599 21.311 24.9795 20.9306 24.5103 20.9306ZM12.68 22.7507C12.1449 22.7507 11.7096 22.3153 11.7096 21.7802C11.7096 21.2452 12.1449 20.8098 12.68 20.8098C13.2151 20.8098 13.6504 21.2451 13.6504 21.7802C13.6504 22.3153 13.2151 22.7507 12.68 22.7507Z"
+                                        fill="black" />
+                                </svg>
+                            </p>
+                        </div>
+                        <div>
+                            <strong>Filter</strong>
+                            <li class="close_btn"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+                                        viewBox="0 -960 960 960" width="30">
+                                        <path
+                                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                                    </svg></a></li>
+                            <li class="close_btn2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960"
+                                        width="40">
+                                        <path
+                                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                                    </svg></a></li>
+                        </div>
+                        <ul class="filter">
+        
+                            <li><a href="#people">People</a></li>
+                            <li><a href="#">Premium</a></li>
+                            <li><a href="#">Pets</a></li>
+                            <li><a href="#food">Food</a></li>
+                            <li><a href="#landmarks">Landmarks</a></li>
+                            <li><a href="#">Cities</a></li>
+                            <li><a href="#">Nature</a></li>
+                        </ul>
+                        <hr>
+                        <strong>Price range</strong>
+                        <div class="btn">
+                            <button type="button">Clear</button>
+                            <button type="button">Save</button>
+                        </div>
+                    </nav>
+                    <div class="product_listings">
+                        <div class="category">
+                            <h3>Category</h3>
+                            <div class="checkbox">
+                                <input type="checkbox" name="people" id="people">
+                                <label for="people">People</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="premium" id="premium">
+                                <label for="premium">Premium</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="pets" id="pets">
+                                <label for="pets">Pets</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="food" id="food">
+                                <label for="food">Food</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="landmarks" id="landmarks">
+                                <label for="landmarks">Landmarks</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="cities" id="cities">
+                                <label for="cities">Cities</label>
+                            </div>                           
+                            <div class="checkbox">
+                                <input type="checkbox" name="nature" id="nature">
+                                <label for="nature">Nature</label>
+                            </div>                           
+                            
+                            <hr>
+                            <strong>Price range</strong>
+                            <div class="checkbox-2">
+                                <input type="checkbox" name="$20" id="$20">
+                                <label for="$20">Lower than $20</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="$100" id="$100">
+                                <label for="$100">$20 - $100</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="$200" id="$200">
+                                <label for="$200">$100 - $200</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="$300" id="$300">
+                                <label for="$300">More than $200</label>
+                            </div>
+                            
+                        </div>
+
+                        <div class="p-listings">
+                            <div>
+                                <div class="product_image">
+                                    <div>
+                                        <img src="media/Rectangle 2 (1).png" alt="product image" id="people">
+                                        <p>Best Seller</p>
+                                    </div>
+                                    <button>ADD TO CART</button>
+                                    <p>People</p>
+                                    <p>Red Bench</p>
+                                    <p>$3.89</p>
+                                </div>
+                                <div class="product_image">
+                                    <div>
+                                        <img src="assets/Rectangle 2.1 (1).png" alt="product image" id="food">
+                                    </div>
+                                    <button>ADD TO CART</button>
+                                    <p>Food</p>
+                                    <p>Egg Baloon</p>
+                                    <p>$93.89</p>
+                                </div>
+                                <div class="product_image">
+                                    <div>
+                                        <img src="assets/Rectangle 2.1 (1).png" alt="product image" id="food">
+                                    </div>
+                                    <button>ADD TO CART</button>
+                                    <p>Food</p>
+                                    <p>Egg Baloon</p>
+                                    <p>$93.89</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="product_image">
+                                    <div>
+                                        <img src="assets/Rectangle 2.4 (2).png" alt="product image" id="people">
+                                    </div>
+                                    <button>ADD TO CART</button>
+                                    <p>People</p>
+                                    <p>Man</p>
+                                    <p>$100.00</p>
+                                </div>
+                                <div class="product_image">
+                                    <div>
+                                        <img src="assets/Rectangle 2.5 (2).png" alt="product image" id="landmarks">
+                                    </div>
+                                    <button>ADD TO CART</button>
+                                    <p>Landmarks</p>
+                                    <p>Architecture</p>
+                                    <p>$101.00</p>
+                                </div>
+                                <div class="product_image">
+                                    <div>
+                                        <img src="assets/Rectangle 2.5 (2).png" alt="product image" id="landmarks">
+                                    </div>
+                                    <button>ADD TO CART</button>
+                                    <p>Landmarks</p>
+                                    <p>Architecture</p>
+                                    <p>$101.00</p>
+                                </div>
+                                </div>
+                            </div>       
+                    </div>
+                    <div class="product_image">
+                        <div>
+                            <img src="media/Rectangle 2.png" alt="product image" id="people">
+                            <p>Best Seller</p>
+                        </div>
+                        <button>ADD TO CART</button>
+                        <p>People</p>
+                        <p>Red Bench</p>
+                        <p>$3.89</p>
+                    </div>
+                    <div class="product_image">
+                        <img src="media/Rectangle 2.1.png" alt="product image" id="food">
+                        <button>ADD TO CART</button>
+                        <p>Food</p>
+                        <p>Egg Baloon</p>
+                        <p>$93.89</p>
+                    </div>
+                    <div class="product_image">
+                        <img src="media/Rectangle 2.4.png" alt="product image" id="people">
+                        <button>ADD TO CART</button>
+                        <p>People</p>
+                        <p>Man</p>
+                        <p>$100.00</p>
+                    </div>
+                    <div class="product_image">
+                        <img src="media/Rectangle 2.5.png" alt="product image" id="landmarks">
+                        <button>ADD TO CART</button>
+                        <p>Landmarks</p>
+                        <p>Architecture</p>
+                        <p>$101.00</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+    </main>
+    <footer class="pignator">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="20" viewBox="0 0 13 20" fill="none">
+                        <path d="M11 2L3 10L11 18" stroke="black" stroke-width="3" />
+                    </svg>
+                    <span>1</span> <span>2</span> <span><strong>3</strong></span> <span>4</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="20" viewBox="0 0 13 20" fill="none">
+                        <path d="M2 2L10 10L2 18" stroke="black" stroke-width="3" />
+                    </svg>
+                </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
